@@ -4,8 +4,8 @@ import "./HomePage.scss";
 
 const HomePage = () => {
   return (
-    <section className="home flex__column__center">
-      <div className="">
+    <section className="app__wrapper">
+      <div className="home container__wrapper">
         <Directory />
       </div>
     </section>

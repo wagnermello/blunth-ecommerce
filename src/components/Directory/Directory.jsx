@@ -4,12 +4,16 @@ import { images } from "../../constants/images";
 
 const Directory = () => {
   return (
-    <div className="directory flex__row__center">
-      <div className="directory__man flex__column__center">
-        <a href="/">MAN</a>
+    <div className="directory flex__row__center gap__x48">
+      <div className="directory__card flex__column__center">
+        <div className="directory__man flex__column__center">
+          <a href="/">MAN</a>
+        </div>
       </div>
-      <div className="directory__woman flex__column__center">
-        <a href="/">WOMAN</a>
+      <div className="directory__card flex__column__center">
+        <div className="directory__woman flex__column__center">
+          <a href="/">WOMAN</a>
+        </div>
       </div>
     </div>
   );

@@ -1,12 +1,16 @@
 import React from "react";
 import { images } from "../../constants/images";
 import "./Header.scss";
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   return (
-    <header className=" flex">
-      <div className="header flex__row__between">
-        <img src={images.blunth_yellow} alt="" />
+    <header className="app__wrapper">
+      <div className="header container__wrapper flex__row__between">
+        <Link to="/">
+          <img src={images.blunth_yellow} alt="" />
+        </Link>
+        <Link to="registration">Register</Link>
       </div>
     </header>
   );

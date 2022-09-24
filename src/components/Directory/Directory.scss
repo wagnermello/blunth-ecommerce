@@ -1,20 +1,53 @@
+@import "../../styles/colors";
+
 .directory {
   width: 100vw;
+  height: 100vh;
+
+  a {
+    width: 100%;
+    background-color: $white;
+    padding: 0.5rem;
+    font-weight: 500;
+
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
+
+.directory__card {
+  background-color: $white;
+  box-shadow: 0 0 4px 2px rgb(00, 00, 00, 0.12);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 320px;
+  height: 440px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $black;
+  }
 }
 
 .directory__man {
-  width: 50%;
+  width: 100%;
   height: 100vh;
   background-image: url("../../assets/home_man.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 0.75rem;
 }
 .directory__woman {
-  width: 50%;
+  width: 100%;
   height: 100vh;
   background-image: url("../../assets/home_woman.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 0.75rem;
 }

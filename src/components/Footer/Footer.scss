@@ -1,0 +1,11 @@
+@import "../../styles/colors";
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $yellow;
+  color: $black;
+  font-size: 0.875rem;
+  font-weight: 600;
+}

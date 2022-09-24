@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.scss";
-import Header from "./components/Header/Header";
-import HomePage from "./pages/HomePage/HomePage";
+import RoutesApp from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <HomePage />
+      <RoutesApp />
     </div>
   );
 }
