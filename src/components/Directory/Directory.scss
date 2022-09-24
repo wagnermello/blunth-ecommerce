@@ -1,0 +1,20 @@
+.directory {
+  width: 100vw;
+}
+
+.directory__man {
+  width: 50%;
+  height: 100vh;
+  background-image: url("../../assets/home_man.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.directory__woman {
+  width: 50%;
+  height: 100vh;
+  background-image: url("../../assets/home_woman.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,13 @@
+@import "../../styles/colors";
+
+.header {
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgb(00, 00, 00, 0.12);
+  background-color: $white;
+
+  img {
+    width: 6rem;
+  }
+}
