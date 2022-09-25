@@ -1,0 +1,23 @@
+@import "../../../styles//colors";
+
+.form {
+  width: 100% !important;
+
+  label {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    box-shadow: 0 0 2px 2px rgb(00, 00, 00, 0.06);
+    border-radius: 0.25rem;
+
+    &::placeholder {
+      color: $placeholder;
+    }
+    &:focus {
+      border-color: transparent;
+    }
+  }
+}
