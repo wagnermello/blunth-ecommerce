@@ -1,6 +1,5 @@
 import React from "react";
 import "./Directory.scss";
-import { images } from "../../constants/images";
 
 const Directory = () => {
   return (

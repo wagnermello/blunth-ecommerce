@@ -1,0 +1,11 @@
+@import "../../../styles/colors";
+
+.btn {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: $yellow;
+  color: $black;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px 0 rgb(00, 00, 00, 0.12);
+  cursor: pointer;
+}

@@ -13,3 +13,15 @@
     width: 6rem;
   }
 }
+
+.splitter {
+  align-items: center;
+  height: 1rem;
+  width: 0.05rem;
+  background-color: $black;
+  opacity: 0.5;
+}
+
+span {
+  cursor: pointer;
+}
